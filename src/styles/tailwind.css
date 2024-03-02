@@ -1,0 +1,24 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+  
+  
+  .notification-dot-container {
+    position: relative;
+    height: 100%;
+  }
+  
+  .notification-dot {
+    position: absolute;
+    top: 0;
+    bottom: 10px; /* Adjust the positioning as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: maroon; /* Adjust the color as needed */
+    border-radius: 50%;
+    
+}
+
